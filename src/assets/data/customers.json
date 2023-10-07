@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "VIP",
+    "customers": [
+      {
+        "id": "Cus123",
+        "name": "Obama",
+        "email": "obama@gmail.com",
+        "age": 67,
+        "image": "../assets/images/coca-cola.jpeg"
+      },
+      {
+        "id": "Cus456",
+        "name": "Kim jong Un",
+        "email": "unun@gmail.com",
+        "age": 38,
+        "image": "../assets/images/coca-cola.jpeg"
+      },
+      {
+        "id": "Cus789",
+        "name": "Putin",
+        "email": "putin@gmail.com",
+        "age": 77,
+        "image": "../assets/images/coca-cola.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Normal",
+    "customers": [
+      {
+        "id": "Cus000",
+        "name": "Hồ Cẩm Đào",
+        "email": "hodao@gmail.com",
+        "age": 16,
+        "image": "../assets/images/coca-cola.jpeg"
+      },
+      {
+        "id": "Cus111",
+        "name": "Tap Can Binh",
+        "email": "binhbinh@gmail.com",
+        "age": 67,
+        "image": "../assets/images/coca-cola.jpeg"
+      }
+    ]
+  }
+]

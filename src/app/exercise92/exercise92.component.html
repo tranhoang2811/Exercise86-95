@@ -1,0 +1,26 @@
+<div class="container">
+    <table border="1" *ngIf="customer">
+        <tr>
+            <td rowspan="4">
+                <img [src]="customer.image" alt="Customer image">
+            </td>
+            <td>Id:</td>
+            <td>{{customer.id}}</td>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td>{{customer.name}}</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>{{customer.email}}</td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td>{{customer.age}}</td>
+        </tr>
+    </table>
+    <p *ngIf="errorMessage">
+        Error message: {{errorMessage}}
+    </p>
+</div>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 123,
+    "name": "Coca cola",
+    "price": 300,
+    "imageUrl": "../assets/images/coca-cola.jpeg"
+  },
+  {
+    "id": 456,
+    "name": "Coca cola",
+    "price": 300,
+    "imageUrl": "../assets/images/coca-cola.jpeg"
+  },
+  {
+    "id": 789,
+    "name": "Coca cola",
+    "price": 300,
+    "imageUrl": "../assets/images/coca-cola.jpeg"
+  }
+]

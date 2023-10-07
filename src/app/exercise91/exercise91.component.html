@@ -1,0 +1,21 @@
+<div class="container">
+    <table border="1">
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Unit Price</th>
+            <th>Picture</th>
+        </tr>
+        <tr *ngFor="let product of products">
+            <td>{{product.id}}</td>
+            <td>{{product.name}}</td>
+            <td>{{product.price}}</td>
+            <td>
+                <img [src]="product.imageUrl" alt="Product picture" width="100" height="100">
+            </td>
+        </tr>
+    </table>
+    <p>
+        Error message: {{errorMessage}}
+    </p>
+</div>

@@ -1,0 +1,20 @@
+<div class="container">
+    <table border="1">
+        <tr>
+            <th>Ma Danh Muc</th>
+            <th>Ten Danh Muc</th>
+        </tr>
+        <ng-container *ngFor="let category of categories">
+            <tr>
+                <td>{{category.id}}</td>
+                <td>{{category.name}}</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <app-exercise89-product-list [products]="category.products">
+                    </app-exercise89-product-list>
+                </td>
+            </tr>
+        </ng-container>
+    </table>
+</div>

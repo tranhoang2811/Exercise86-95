@@ -1,0 +1,24 @@
+<div class="container" *ngIf="product">
+    <table border="1">
+        <tr>
+            <td>Product ID:</td>
+            <td>{{product.id}}</td>
+        </tr>
+        <tr>
+            <td>Product Name:</td>
+            <td>{{product.name}}</td>
+        </tr>
+        <tr>
+            <td>Price:</td>
+            <td>{{product.price}}</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <img [src]="product.imageUrl" alt="Coca cola">
+            </td>
+        </tr>
+    </table>
+    <button type="button" (click)="goBack()">
+        Go back
+    </button>
+</div>
